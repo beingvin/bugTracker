@@ -1,0 +1,107 @@
+.wrapper {
+  padding: 2%;
+}
+
+.quickLinks a {
+  color: #cecece;
+}
+
+.quickLinks h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #cecece;
+}
+
+.quickLinks {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quickLinks a:hover {
+  color: #fd2155;
+}
+
+.addBugForm .input,
+.select,
+.button {
+  outline: none;
+  border: none;
+  height: 30px;
+  background-color: transparent;
+  color: #fff;
+  border-bottom: 1px solid #cecece;
+  margin: 2% 0.5%;
+}
+
+.addBugForm .input::placeholder {
+  color: #fff;
+}
+
+.addBugForm .input:focus,
+.select:focus,
+.button {
+  border-bottom: 1px solid #fd2155;
+  font-size: 15px;
+}
+
+.addBugForm .select option {
+  background-color: transparent;
+  color: #000;
+}
+
+.addBugForm .select option:hover {
+  color: #fff;
+}
+
+.addBugForm .button {
+  /* margin-left: -1%; */
+  margin-left: 2%;
+  padding: 5px 10px;
+  background-color: transparent;
+  border-bottom: none;
+  border-left: 1px solid #fd2155;
+  border-right: 1px solid #fd2155;
+
+  /* border-radius: 25px; */
+  transition-duration: 0.3s;
+}
+
+.addBugForm .button:hover {
+  border-left: 1px solid #cecece;
+  border-right: 1px solid #cecece;
+  color: #fd2155;
+  scale: 1.1;
+}
+
+.bugsTable {
+  border-radius: 20px;
+  padding: 1%;
+  overflow: hidden;
+  background-color: #cecece;
+}
+
+.bugsTable .table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.bugsTable .table th {
+  text-align: center;
+  border: 1px solid #878787;
+  background-color: #272727;
+  color: #dddddd;
+  padding: 8px;
+}
+
+.bugsTable .table td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #dddddd;
+}
+
+.bugsTable .table tr:nth-child(even) {
+  background-color: #dddddd;
+}
